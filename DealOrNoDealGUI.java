@@ -158,7 +158,7 @@ public class DealOrNoDealGUI extends JFrame {
 
         Collections.sort(remaining);
 
-        StringBuilder sb = new StringBuilder("Remaining:\n");
+        StringBuilder sb = new StringBuilder("Remaining more:\n");
         for(int val : remaining){
             sb.append("₹").append(val).append("\n");
         }
